@@ -26,6 +26,7 @@ linter:
     prefer_single_quotes: false  # Uncomment to enable the `prefer_single_quotes` rule
     prefer_const_constructors: false
     unused_import: false
+    must_be_immutable: false
 
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options
