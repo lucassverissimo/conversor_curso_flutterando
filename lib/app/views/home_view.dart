@@ -1,6 +1,4 @@
-import 'package:conversor_curso/app/models/currency_model.dart';
 import 'package:flutter/material.dart';
-
 
 class HomeView extends StatefulWidget {
   @override
@@ -8,7 +6,6 @@ class HomeView extends StatefulWidget {
     return _HomeViewState();
   }
 }
-
 
 class _HomeViewState extends State<HomeView> {
   String dropDownValue = 'Real';
@@ -54,7 +51,7 @@ class _HomeViewState extends State<HomeView> {
                           }).toList(),                       
                         onChanged: (String? newValue) {
                           setState((){
-                            this.dropDownValue = newValue!;
+                            dropDownValue = newValue!;
                           });
                         }
                         ),
